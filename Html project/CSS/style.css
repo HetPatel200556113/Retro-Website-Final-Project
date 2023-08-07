@@ -1,0 +1,239 @@
+/* Import the 'Karla' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap');
+
+/* Reset default styles and set font family for entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+/* Set text color for the entire body */
+body {
+  color: #fff;
+}
+
+/* Create a container for the main content */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/photo.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* Styling for the 'home' section */
+.home {
+  color: white;
+  letter-spacing: 5px;
+}
+
+/* Styling for the navigation bar */
+nav {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Styling for the logo */
+.logo > a {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* Styling for links in navigation */
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+/* Styling for navigation link anchors */
+nav > ul > li > a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Hover effect for navigation links */
+nav > ul > li > a:hover {
+  color: #f9004d;
+}
+
+/* Styling for the 'login' link */
+.login {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+/* Styling for buttons */
+.btn {
+  background: #000;
+  border-radius: 6px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+/* Styling for the main content */
+.content {
+  margin-top: 10%;
+  max-width: 600px;
+}
+
+/* Styling for content headings */
+.content h2 {
+  font-size: 60px;
+}
+
+/* Styling for content paragraphs */
+.content p {
+  margin-top: 10px;
+  line-height: 25px;
+  font-size: 18px;
+  color: white;
+}
+
+/* Styling for links */
+a {
+  color: #fff;
+}
+
+/* Styling for additional links */
+.link {
+  margin-top: 30px;
+}
+
+/* Styling for 'hire' button */
+.hire {
+  color: #000;
+  text-decoration: none;
+  background: #fff;
+  padding: 9px 25px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.logo span{
+  color:red;
+}
+
+/* Hover effect for 'hire' button */
+.link > .hire:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+/* Styling for the product container */
+.product-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for images */
+img {
+  max-width: 100%;
+}
+
+/* Styling for headings */
+h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Styling for subheadings */
+h2 {
+  color: #000;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Styling for buttons */
+button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Styles for the cart pop-up */
+.cart-popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Styling for cart pop-up headings */
+.cart-popup > h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for cart pop-up paragraphs */
+.cart-popup > p {
+  margin-bottom: 20px;
+}
+
+/* Styling for buttons in cart pop-up */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styling for cart pop-up buttons */
+.buttons > button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for cart pop-up buttons */
+.buttons > button:hover {
+  background-color: #0056b3;
+}

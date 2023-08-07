@@ -1,0 +1,217 @@
+/* Import the 'Poppins' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset default styles and set font family */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the first container */
+.container {
+    min-height: 100vh;
+    /* background: #08071d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/photo2.jpg");
+}
+
+/* Styling for the form inside the container */
+.container > form {
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+/* Styling for form heading */
+.container > form h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+/* Styling for form inputs */
+.container > form input {
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+
+/* Styling for input placeholders */
+.container > form input::placeholder {
+    color: #ddd;
+}
+
+/* Styling for specific form inputs */
+.container > form #lastName,
+.container > form #mobile {
+    margin-left: 20px;
+}
+
+/* Styling for form section heading */
+.container > form h4 {
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+}
+
+/* Styling for form textarea */
+.container > form > textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+/* Styling for textarea scrollbar */
+textarea::-webkit-scrollbar {
+    width: 1em;
+}
+
+/* Styling for scrollbar thumb */
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194,194,194,0.713);
+}
+
+/* Styling for form submit button */
+.container > form > #button {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+/* Styling for hover effect on submit button */
+.container > form > #button:hover {
+    opacity: 0.7;
+}
+
+/* Import 'Poppins' font for navigation */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* Reset default styles and set font family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for navigation bar */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  background: #2980b9;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for navigation bar content */
+nav > .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 90%;
+  background: #2980b9;
+  margin: auto;
+}
+
+/* Styling for logo in navigation bar */
+nav > .navbar > .logo a {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Styling for navigation menu */
+nav > .navbar > .menu {
+  display: flex;
+}
+
+/* Styling for menu items in navigation */
+.navbar > .menu li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+/* Styling for links in menu items */
+.navbar > .menu > li > a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Styling for sections */
+section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #96c7e8;
+  font-size: 70px;
+}
+
+/* Styling for individual sections with IDs */
+#Home {
+  background: #fff;
+}
+
+#About {
+  background: #f2f2f2;
+}
+
+#Category {
+  background: #e6e6e6;
+}
+
+#Latest {
+  background: #fff;
+}
+
+#Contact {
+  background: #f2f2f2;
+}
+
+#Feedback {
+  background: #e6e6e6;
+}
